@@ -1,1 +1,2 @@
-https://vitali007tut.github.io/rsschool-cv/cv
+# rs school
+https://vitali007tut.github.io/rsschool-cv/

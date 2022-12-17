@@ -3,7 +3,7 @@
     margin: 0 auto;
   }
 
-body {
+  body {
     flex-direction: column;
     justify-content: space-between;
   }
@@ -11,3 +11,37 @@ body {
 #rs_image{
     width: 100px;
 }
+
+.nav-list {
+    list-style: none;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+  .footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-li{
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+  .section{
+    border: 2px solid blue;
+    margin: 6px;
+    color: black;
+    background-color: grey;
+     }

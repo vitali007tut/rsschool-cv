@@ -2,12 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
   img:hover {
     border: 3px solid #65994C; /* Параметры рамки */
     border-radius: 10px; /* Радиус скругления */

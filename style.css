@@ -1,7 +1,9 @@
-.class{
-    color: blueviolet;
-}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
-#my_photo{
-    width: 5cm;
-}
+body {
+    flex-direction: column;
+    justify-content: space-between;
+  }

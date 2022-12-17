@@ -1,1 +1,7 @@
-style
+.class{
+    color: blueviolet;
+}
+
+#my_photo{
+    width: 5cm;
+}

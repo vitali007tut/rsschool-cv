@@ -3,18 +3,23 @@
 }
 
   img:hover {
-    border: 3px solid #65994C; /* Параметры рамки */
+    border: 3px solid #829985; /* Параметры рамки */
     border-radius: 10px; /* Радиус скругления */
   }
 
-#rs_image{
-    float:left;
+  #my_photo {
+    border-radius: 50; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+
+   #rs_image{
+    float: right;
     height: 100px;
 }
 
 .nav-list {
-    list-style: none;
-  }
+  list-style: none;
+}
 
 .nav-list {
     display: flex;

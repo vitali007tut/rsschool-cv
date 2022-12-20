@@ -1,48 +1,28 @@
-* {
-  box-sizing: border-box;
-}
-
-  img:hover {
-    border: 3px solid #829985; /* Параметры рамки */
-    border-radius: 10px; /* Радиус скругления */
-  }
-
   #my_photo {
-    border-radius: 50; /* Радиус скругления */
-    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-radius: 50px; /* Радиус скругления */
    }
 
    #rs_image{
-    float: right;
     height: 100px;
 }
 
 .nav-list {
-  list-style: none;
-}
-
-.nav-list {
+    list-style: none;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
   }
 
   .nav-link {
     padding: 0 20px;
-    line-height: 50px;
-  }
-
-  .nav-link {
+    line-height: 30px;
     transition: .3s;
   }
 
-  .nav-item a {
-    color: #829985;
+  .nav-item a{
     text-decoration: none;  
-    transition: color 0.5s;
   }
-  .nav-item a:hover {
-    color: #4d2323;
+
+  a{
+    text-decoration: none;  
   }
 
   .footer-list{
@@ -53,13 +33,14 @@
   }
 
   .footer-li{
-    padding: 0 20px;
+    padding: 2px 20px;
     line-height: 50px;
   }
 
   .section{
-    padding: 1px 100px;
-    color: yellowgreen;
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px;
+
      }
 
     .footer
@@ -68,7 +49,7 @@
         border-radius: 10px;
         background-color: aquamarine;
         max-width: 1100px;
-        padding: 5px 20px 15px 25px;
+        padding: 0px;
         margin: 10px auto;
      }
 
@@ -87,13 +68,12 @@
       margin: 0 auto;
     }
 
-    .main-container {
-      background-color: hsla(335, 79%, 11%, 0.349);
+    .card {
       border: 2px solid hsl(0, 0%, 100%);
       border-radius: 9px;
       max-width: 1100px;
-      padding: 5px 20px 15px 25px;
-      margin: 10px auto;
+      padding: 0px;
+      margin: 5px auto;
     }
 
     body {
@@ -113,15 +93,22 @@
       text-transform: uppercase;
       letter-spacing: 5px;
       color: yellow;
+      margin-top: 0cm;
+      margin-bottom: 0px;
     }        
-
-    .card {
-      background-color: hsla(335, 79%, 11%, 0.349);
-      border: 2px solid hsl(0, 0%, 100%);
-      border-radius: 9px;
-      color: yellow;
-      max-width: 1100px;
-      padding: 5px 20px 15px 25px;
-      margin: 10px auto;
+  
+  h1 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    text-align:center;
   }
-    
+
+  pre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  ul{
+    margin-top: 0cm;
+    margin-bottom: 0px;
+  }

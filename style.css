@@ -1,0 +1,106 @@
+  #my_photo {
+    border-radius: 50px; /* Радиус скругления */
+   }
+
+   #rs_image{
+    height: 100px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 30px;
+    transition: .3s;
+  }
+
+ a{
+    text-decoration: none;  
+  }
+
+  .footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-li{
+    padding: 2px 20px;
+    line-height: 50px;
+  }
+
+  .section{
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px;
+
+     }
+
+    .footer{
+        border-top: 3px solid #3db5d8;
+        max-width: 1100px;
+        padding: 10px 0px 0px 0px;
+        margin: 10px 10px;
+     }
+
+     .nav-item{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 6px;
+        border-radius: 10px;
+        background-color: aquamarine;  
+     }
+
+     .container {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    .card {
+      border: 2px solid hsl(0, 0%, 100%);
+      border-radius: 9px;
+      max-width: 1100px;
+      padding: 0px;
+      margin: 5px auto;
+    }
+
+    body {
+      background-color: rgb(88, 95, 185);
+      background-attachment: fixed;
+      background-size: cover;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: black;
+    }
+
+    .section-title {
+      font-size: 25px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      color: yellow;
+      margin-top: 0cm;
+      margin-bottom: 0px;
+    }        
+  
+  h1 {
+    border-bottom: 3px solid #3db5d8;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    text-align:center;
+  }
+
+  pre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  ul{
+    margin-top: 0cm;
+    margin-bottom: 0px;
+  }
